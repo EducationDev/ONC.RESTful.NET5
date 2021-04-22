@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ONC.RESTful.API.Common\ONC.RESTful.API.Common.csproj" />
+    <ProjectReference Include="..\ONC.RESTful.Data\ONC.RESTful.Data.csproj" />
+    <ProjectReference Include="..\ONC.RESTful.Services.Contracts\ONC.RESTful.Services.Contracts.csproj" />
+    <ProjectReference Include="..\ONC.RESTful.Services.Model\ONC.RESTful.Services.Model.csproj" />
+  </ItemGroup>
+
+</Project>

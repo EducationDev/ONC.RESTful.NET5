@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnterpriseLibrary.Common.NetCore" Version="6.3.0" />
+    <PackageReference Include="EnterpriseLibrary.Data.NetCore" Version="6.3.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ONC.RESTful.API.Common\ONC.RESTful.API.Common.csproj" />
+    <ProjectReference Include="..\ONC.RESTful.Services.Model\ONC.RESTful.Services.Model.csproj" />
+    <ProjectReference Include="..\ONC.RESTful.Tools\ONC.RESTful.Tools.csproj" />
+  </ItemGroup>
+
+</Project>
